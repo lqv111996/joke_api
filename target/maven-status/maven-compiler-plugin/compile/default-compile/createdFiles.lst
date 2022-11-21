@@ -1,0 +1,9 @@
+com\joke\enumuration\ResponseCode.class
+com\joke\http\HttpUtil.class
+com\joke\repository\MemcachedRepository.class
+com\joke\dto\common\ResponseDto.class
+com\joke\controller\JokeController.class
+com\joke\service\JokeService.class
+com\joke\JokeApplication.class
+com\joke\exception\JokeException.class
+com\joke\service\JokeRateLimitService.class
