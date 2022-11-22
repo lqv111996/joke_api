@@ -11,7 +11,7 @@ public class MemcachedRepository {
     private final String host = "localhost";
     private final int port = 11211;
     private MemcachedClient client;
-    public MemcachedRepository() {
+    private MemcachedRepository() {
         try {
             client = new MemcachedClient(new InetSocketAddress(host, port));
         } catch (Exception e) {

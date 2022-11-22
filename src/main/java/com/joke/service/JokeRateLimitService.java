@@ -9,6 +9,7 @@ public class JokeRateLimitService {
     private final int SIXTY_SECONDS = 60;
     private final int MAX_TIMES_PER_MINUTE = 5;
 
+    private JokeRateLimitService() {}
     private final MemcachedRepository memcachedRepository = MemcachedRepository.INSTANCE;
 
     public static JokeRateLimitService INSTANCE = new JokeRateLimitService();

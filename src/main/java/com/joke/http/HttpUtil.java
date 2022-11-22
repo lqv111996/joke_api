@@ -23,7 +23,7 @@ public class HttpUtil {
 
     private CloseableHttpClient httpClient;
     public static HttpUtil INSTANCE = new HttpUtil();
-    public HttpUtil() {
+    private HttpUtil() {
         httpClient = HttpClients.createDefault();
     }
 

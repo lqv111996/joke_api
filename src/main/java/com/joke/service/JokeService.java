@@ -12,6 +12,7 @@ public class JokeService {
     private final HttpUtil http = HttpUtil.INSTANCE;
     private final String url = "https://api.chucknorris.io/jokes/search?query=";
 
+    private JokeService() {}
     public static JokeService INSTANCE = new JokeService();
 
     public List<String> getJokes(String keyword) {
